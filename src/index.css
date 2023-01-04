@@ -8,6 +8,10 @@ body {
   background-color: black;
 }
 
+.title {
+    font-size: 50px;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -35,6 +39,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .navbar--menu a {
@@ -66,7 +71,7 @@ code {
 
 .navbar--container {
   width: 1500px;
-  height: 300px;
+  height: 200px;
   display: flex;
   align-items: center;
   margin-bottom: 100px;
@@ -131,8 +136,68 @@ code {
 }
 
 .footer--container {
+  margin: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
   color: white;
 }
+
+.login--container {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.login--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.register--container {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.add--container {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add--form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+.movie--container {
+    width: 100%;
+    height: 415px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
