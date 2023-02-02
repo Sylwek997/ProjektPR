@@ -1,11 +1,10 @@
-import React from 'react'
+import React from 'react';
 
-function Footer() {
+export default function Footer() {
   return (
     <div className='footer--container'>
-        <p>Copyrights © - Sylwester Wajdowicz 2022</p>
+      <p>Copyrights © - Sylwester Wajdowicz 2023</p>
     </div>
   )
 }
 
-export default Footer
